@@ -1,0 +1,56 @@
+body {
+    font-family: 'Noto Nastaliq Urdu', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#game-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    background: #fff;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #007bff;
+}
+
+#question-box {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+#answer {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#score-display, #timer-display {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
